@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+*{
+    font-family: "Raleway";
+}
+
+.conteiner{
+    background-image: url(img/bg.png);
+    padding-bottom: 150px;
+}
+.blog{
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.text_dolore{
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 28px;
+    padding-bottom: 55px;
+    padding-top: 45px;
+}
+.pictures{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.pictures .img{
+    position: relative;
+    max-width: 370px;
+    max-height: 315px;
+    margin: 10px;
+}
+.text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+}
+.text .date{
+    background-color: rgba(75, 82, 97, 0.5);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin: 30px 0 0 30px;
+    padding: 3px 10px 5px;
+}
+.number{
+    font-weight: 700;
+    font-size: 30px;
+}
+.month{
+    font-weight: 700;
+    font-size: 20px;
+}
+.textinside{
+    color: white;
+    letter-spacing: 1px;
+    margin: 0 20px 25px;
+}
+ p{
+    font-weight: 700;
+    font-size: 17px;
+}
+.textinside span{
+    font-weight: 300;
+    font-size: 15px;
+    opacity: 0.7;
+}
+h1{
+    margin-bottom: 0;
+}
+.button{
+    display: block;
+    width: 200px;
+    height: 55px;
+    background-color: #f72b3b;
+    border: none;
+    margin: 0 auto;
+    color: white;
+    box-shadow: 0 0 7px rgba(0,0,0,0.7);
+    margin-top: 55px;
+    cursor: pointer;
+    position: relative;
+}
+.img .text:hover{
+    background-color: rgba(1, 2, 2, 0.5);
+}
